@@ -31,7 +31,8 @@ export const appConfig: ApplicationConfig = {
  
 ###### Create Book List Component
 
-```
+* book-list.component.ts
+```ts
 import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
@@ -89,7 +90,8 @@ export class BooksListComponent {
 
 ```
 
-```
+* book-list.component.html
+```html
 <p>Books List</p>
 
 <!-- {{books | json}}  -->
