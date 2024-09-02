@@ -1,0 +1,28 @@
+<h3>View Book</h3>
+
+<!-- {{book | json}} -->
+
+<table border="1" *ngIf="book">
+  <tbody>
+    <tr>
+      <th>Id</th>
+      <td>{{book.id}}</td>
+    </tr>
+    <tr>
+      <th>Title</th>
+      <td>{{book.title}}</td>
+    </tr>
+    <tr>
+      <th>Price</th>
+      <td>Rs.{{book.price}}</td>
+    </tr>
+    <tr>
+      <th>Ratings</th>
+      <td>{{book.rating}}</td>
+    </tr>
+    <tr>
+      <a routerLink="/home">Place an Order</a>
+
+    </tr>
+  </tbody>
+</table>

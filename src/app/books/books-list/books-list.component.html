@@ -1,0 +1,31 @@
+<p>Books List</p>
+
+<!-- {{books | json}}  -->
+<!-- json is an inbuilt pipe used to transform the data( object to string) -->
+<a routerLink="/add-book">Add Book</a> <br />
+<table border="1">
+  <thead>
+    <tr>
+      <th>Sno</th>
+      <th>Title</th>
+      <th>Price</th>
+      <th>Rating(out of 5)</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- <tr>
+      <td>1</td>
+      <td>HTML</td>
+    </tr> -->
+    <tr *ngFor="let book of books;let i=index">
+      <td>{{i+1}}</td>
+      <td>{{book.title}}</td>
+      <td>Rs.{{book.price}}</td>
+      <td>{{book.rating}}</td>
+      <td>
+        <a routerLink="/view-book">View</a>
+      </td>
+    </tr>
+  </tbody>
+</table>

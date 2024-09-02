@@ -1,0 +1,14 @@
+<h3>Add Book</h3>
+
+<form (ngSubmit)="onSubmit()">
+  <label>Title</label>
+  <input type="text" name="title" id="title" required placeholder="Enter title" [(ngModel)]="title">
+  <br />
+  <label for="price">Price</label>
+  <input type="number" name="price" id="price" required [(ngModel)]="price">
+  <br />
+  <label for="rating">Ratings</label>
+  <input type="number" name="rating" id="rating" required [(ngModel)]="rating">
+  <br />
+  <button type="submit">Submit</button>
+</form>
