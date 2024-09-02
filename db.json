@@ -1,0 +1,46 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "Learn HTML",
+      "price": 1999,
+      "rating": 3.5
+    },
+    {
+      "id": "2",
+      "title": "Learn CSS",
+      "price": 350,
+      "rating": 4
+    },
+    {
+      "id": "5ae1",
+      "title": "Learn Angular",
+      "price": 2000,
+      "rating": 4.8
+    },
+    {
+      "id": "9b77",
+      "title": "Learn JS",
+      "price": 1999,
+      "rating": 4.8
+    },
+    {
+      "id": "d962",
+      "title": "Typescript",
+      "price": 100,
+      "rating": 2
+    },
+    {
+      "id": "75c0",
+      "title": "NodeJS",
+      "price": 100,
+      "rating": 4.5
+    },
+    {
+      "id": "44d7",
+      "title": "C#",
+      "price": 10,
+      "rating": 1
+    }
+  ]
+}
